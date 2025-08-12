@@ -1,8 +1,51 @@
-# React + Vite
+# 📚 Blog Category Filter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that displays blog posts and allows filtering by category using React Router.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- View all posts or filter by category (**All**, **Cyber Security**, **Data Science**, **Career**, **Full Stack**)
+- Single Page Application (SPA) navigation without reloads
+- Responsive design using Bootstrap grid
+- Reusable `Card` component for all categories
+
+---
+
+## 🛠️ Tech Stack
+- React
+- React Router DOM
+- Bootstrap
+- JavaScript (ES6+)
+
+---
+
+## Install dependencies:
+---
+- npm install
+- npm install react-router-dom
+- npm install bootstrap
+
+## Start the development server:
+---
+- npm run dev
+
+🔗 Routes
+---
+- / → All posts
+- /cybersecurity → Cyber Security posts
+- /datascience → Data Science posts
+- /career → Career posts
+- /fullstack → Full Stack posts
+
+💡 Future Improvements
+---
+- Fetch blog data from an API instead of hardcoded array
+- Add search functionality
+- Implement pagination for large datasets
+- Include category counts in navigation
+- Add animations for page transitions
+
+📜 License
+---
+This project is open-source under the MIT License.
