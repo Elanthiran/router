@@ -21,13 +21,13 @@ A simple React app that displays blog posts and allows filtering by category usi
 ---
 
 ## Install dependencies:
----
+
 - npm install
 - npm install react-router-dom
 - npm install bootstrap
 
 ## Start the development server:
----
+
 - npm run dev
 
 🔗 Routes
