@@ -44,8 +44,13 @@ router/
 3. Responsive layout for desktop & mobile.
 
 ## 📸 Screenshots
+💻 Desktop View :
 
-![router](./router1.png)
+![router](./routerimg.png)
+
+📱 Mobile View:
+
+![router](./routerimg1.png)
 
 
 ---
